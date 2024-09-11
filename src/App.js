@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Board from './components/board/Board';
+import EditTable from './components/Edittable/EditTable';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 <Board/>
 <Board/>
 <Board/>
+<EditTable/>
 {/* <Board/>
 <Board/>
 <Board/> */}

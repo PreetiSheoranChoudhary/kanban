@@ -23,7 +23,10 @@ function Board(props) {
                  <Card/> 
                  <Card/> 
                  <Card/> 
-                <EditTable/>
+                <EditTable 
+                displayClass="boards_cards_add"
+                text= "Add card"
+                placeholder="Enter card title"/>
             </div>
         </div>
     );

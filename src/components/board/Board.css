@@ -34,9 +34,18 @@
     gap: 10px;
     padding: 10px;
     border-radius: 5px;
-    background-color: lightgray;
-    border: 1px solid #ccc;
+    background-color: linen;
     overflow-y: auto;
-  
-
 }
+
+.board_cards_add{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow:  1px 1.5px 2px dimgray;
+    border: 1px solid #ccc;
+}
+
+.board_cards_add:hover{
+    box-shadow:  1px 1.5px 5px rgb(145, 144, 144);
+   
+}   
