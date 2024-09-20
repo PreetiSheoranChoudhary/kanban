@@ -7,15 +7,14 @@ function EditTable(props) {
     const [showEdit, setShowEdit] = useState(false) // [showEdit, setShowEdit]
     return (
         <div className='edit_table'>
-           
             {showEdit ?
-
                 <form className={`edit_table_edit ${props.editClass || ''} `}
                     onSubmit={(event) => {
                         event.preventDefault()
                         if (props.onSubmit) props.onSubmit()
                     }}>
                     <input type="text"
+                    autoFocus
                         placeholder={props.placeholder || 'Enter card title'}
                         defaultValue={props.text} />
                     <dic className='edit_table_footer'>

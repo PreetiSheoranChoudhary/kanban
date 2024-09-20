@@ -49,3 +49,21 @@
     box-shadow:  1px 1.5px 5px rgb(145, 144, 144);
    
 }   
+
+.board_top_more{
+    position: relative;
+   
+}
+
+.board_dropdown{
+    margin-top: -16px;
+    height: 40px;
+    width: 130px;
+    background-color: white;
+    box-shadow:  1px 1.5px 2px dimgray;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}

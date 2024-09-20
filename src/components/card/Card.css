@@ -54,3 +54,20 @@
     align-items: center;
     gap: 5px;
 }
+
+.card_top_more{
+    position: relative;
+   
+}
+
+.card_dropdown{
+    height: 40px;
+    width: 130px;
+    background-color: white;
+    box-shadow:  1px 1.5px 2px dimgray;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
